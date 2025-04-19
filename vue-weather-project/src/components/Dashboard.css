@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+
+#App {
+    height: 100vh;
+}
+
+  #Body {
+    background-color: #0f0f0f;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  #SideBar {
+    background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding: 30px 20px;
+    color: #f5f5f5;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  #sidebarSeperator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 86vh;
+  }
+
+#searchBar {
+    display: flex;
+    flex-direction: row;
+}
+
+#searchHistory {
+    display: flex;
+    flex-direction: column;
+}
+
+#SideBarInfo {
+    margin-top: 5vh;
+    align-items: center;
+}
+
+#cityName {
+    margin-left: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f5f5f5;
+    margin-bottom: 0.5rem;
+}
+
+#tempBox {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}
+
+#temp {
+    margin-left: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f5f5f5;
+    margin-bottom: 0.5rem;
+}
+
+#feelTemp {
+    margin-left: 30px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    color: #dedede;
+}
+
+#weatherIcon {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 30px; */
+    align-items: center;
+    font-size: 1.2rem;
+    color: #bbbbbb;
+}
+
+#weatherDesc {
+    color: #e6e6e6;
+}
+  
+#infoBox {
+    background-color: #aa8deca6;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    padding: 20px 40px;
+    color: #000000;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+}
+
+#noInfo {
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+#calendarSection {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 1000;
+}
+
+#calButton {
+    background-color: #ffaf7b;
+    border: none;
+    color: #0f0f0f;
+    font-weight: bold;
+    border-radius: 8px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#calButton:hover {
+    background-color: #d76d77;
+    color: #fff;
+}
+
+#forcasting {
+    display: flex;
+    background-color: #1a1a1a;
+    height: 38vh;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(255, 175, 123, 0.1);
+}
+
+.forcastBox {
+    background-color: #222;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.forcastBox:hover {
+    background-color: #333333;
+    transform: translateY(-4px);
+    box-shadow: 0 0 10px #ffaf7b;
+}
+
+.forcastDay {
+    margin-top: 6%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00ffe0;
+    margin-bottom: 0.5rem;
+}
+
+.forcastTemp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00ffe0;
+    margin-bottom: 0.5rem;
+}
+
+
+#infoOther {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+
+.InfoBox {
+    background-color: #1a1a1a;
+    flex: 1;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 255, 224, 0.1);
+    margin: 20px;
+}
+
+#logoDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    height: 30%;
+    width: auto;
+    opacity: 0.4;
+}
