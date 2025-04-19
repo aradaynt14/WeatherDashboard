@@ -212,7 +212,7 @@ export default {
       weatherData: null,
       forecastData: null,
       error: null,
-      API_KEY: '3feecf72972e71bb7b17a5e31a4c1827',
+      API_KEY : import.meta.env.VITE_WEATHER_API_KEY,
       searchHistory: [],
       selectedDate: '',
       historicalWeather: '',
@@ -250,6 +250,9 @@ export default {
       }).join(' ');
     },
     async getWeather() {
+      console.log("VITE:", import.meta.env);
+      console.log("KEY:", import.meta.env.VITE_WEATHER_API_KEY);
+      console.log("Loaded API KEY:", import.meta.env.VITE_WEATHER_API_KEY);
       if (!this.cityInput.trim()) {
         this.error = 'Please enter a city name'
         return
