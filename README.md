@@ -28,5 +28,24 @@ You will need Node.js, jQuery, d3, npm, and Vue.js. To install these you need to
 After installing the necessary packages you can run the project. <br><br>
 To run this website you will need to run `npm run dev` in your terminal once you are in the vue-weather-project directory.
 
+### Members 
+<table>
+        <tr>
+            <td>Arad Ayntabli</td>
+        </tr>
+        <tr>
+            <td>Mikhail Kamochkin</td>
+        </tr>
+        <tr>
+            <td>Seth Cumby</td>
+        </tr>
+        <tr>
+            <td>Jeet Ray</td>
+        </tr>
+        <tr>
+            <td>Manson Choi</td>
+        </tr>
+    </table>
+
 ### Resources
 The svg we used for our logo was found at - https://www.svgrepo.com/collection/weather-line-icons/
